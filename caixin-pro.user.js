@@ -2,7 +2,7 @@
 // @name               财新网页版阅读增强
 // @name:en            caixin-pro
 // @namespace          http://www.caixin.com/
-// @version            1.0
+// @version            1.1
 // @description        清理页面无用元素，调整板式，专注阅读，允许复制粘贴。本代码基于Simple-Caixin二次开发，其原作者EAK8T6Z，原项目地址https://github.com/EAK8T6Z/Simple-Caixin
 // @description:en     A script which removed some unuseful elements on caixin.com
 // @author             HaiBooLang
@@ -15,6 +15,8 @@
 // @grant              window.onurlchange
 // @run-at             document-start
 // @license            MPL 2.0
+// @downloadURL https://update.greasyfork.org/scripts/519571/%E8%B4%A2%E6%96%B0%E7%BD%91%E9%A1%B5%E7%89%88%E9%98%85%E8%AF%BB%E5%A2%9E%E5%BC%BA.user.js
+// @updateURL https://update.greasyfork.org/scripts/519571/%E8%B4%A2%E6%96%B0%E7%BD%91%E9%A1%B5%E7%89%88%E9%98%85%E8%AF%BB%E5%A2%9E%E5%BC%BA.meta.js
 // ==/UserScript==
 
 (function () {
@@ -222,7 +224,7 @@
         }
 
         /* 隐藏不需要的元素 */
-        .sitenav, .vioce-box-cons, .icon_key, .subhead, .share_list, .function01, .morelink,
+        .sitenav, .vioce-box-cons, .icon_key, .share_list, .function01, .morelink,
         .greenBg, .redBg, .cx-wx-hb-tips, .conri, .f_ri, .fenghui_code, .comment,
         .hot_word_v2, .bottom_tong_ad, .copyright, .navBottom, .multimedia,
         .share_list, .renewals {
